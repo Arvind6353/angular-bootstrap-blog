@@ -13,7 +13,8 @@ angular
     'ui.router',
     'ui.bootstrap',
     'angular-loading-bar',
-    'angular-owl-carousel',
+    'angular-owl-carousel'
+    
   ])
   .config(['$stateProvider','$urlRouterProvider','$ocLazyLoadProvider',function ($stateProvider,$urlRouterProvider,$ocLazyLoadProvider) {
     console.log();
@@ -67,7 +68,6 @@ angular
                   name:'ngSanitize',
                   files:['bower_components/angular-sanitize/angular-sanitize.js']
                 })
-                
             }
         }
     })
@@ -106,6 +106,57 @@ angular
           }
         }
     })
+
+
+    .state('dashboard.contact',{
+        templateUrl:'views/pages/contact.html',
+        controller:'ContactCtrl',
+        controllerAs:'contact',
+        url:'/contact',
+        resolve: {
+          loadMyFile:function($ocLazyLoad) {
+            return $ocLazyLoad.load({
+                name:'sbAdminApp',
+                files:['scripts/controllers/contactCtrl.js']
+            })
+          }
+        }
+    })
+
+    .state('dashboard.aboutMe',{
+        templateUrl:'views/pages/aboutMe.html',
+        controller:'AboutMeCtrl',
+        controllerAs:'aboutMe',
+        url:'/aboutMe',
+        resolve: {
+          loadMyFile:function($ocLazyLoad) {
+            return $ocLazyLoad.load({
+                name:'sbAdminApp',
+                files:['scripts/controllers/aboutMeCtrl.js']
+            })
+          }
+        }
+    })
+
+
+    .state('dashboard.experience',{
+        templateUrl:'views/pages/experience.html',
+        controller:'ExperienceCtrl',
+        controllerAs:'experience',
+        url:'/experience',
+        resolve: {
+          loadMyFile:function($ocLazyLoad) {
+            return $ocLazyLoad.load({
+                name:'sbAdminApp',
+                files:['scripts/controllers/experienceCtrl.js']
+            })
+          }
+        }
+    })
+
+
+
+  
 
       .state('dashboard.form',{
         templateUrl:'views/form.html',
