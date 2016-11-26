@@ -1,0 +1,1 @@
+"use strict";angular.module("sbAdminApp").controller("ExperienceCtrl",function($scope){});
