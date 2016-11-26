@@ -1,0 +1,153 @@
+<div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="page-header" style="margin-top:20px">Welcome Home</h3>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
+    <!-- /.row -->
+    <div class="row">
+        
+        <stats number="15+" comments="Web Applications!" colour="primary" type="puzzle-piece"></stats>
+        <stats number="10+" comments="Mobile Applications!" colour="yellow" type="mobile"></stats>
+        <stats number="10+" comments="Awards!" colour="green" type="trophy"></stats>
+     
+    </div>
+    
+    <!-- /.panel -->
+
+
+   <div class="box"> 
+
+
+
+        <!-- skills -->
+        <div class="row">
+
+            <center>  <h3><b> <strong>Skills</strong> </b></h3> </center>
+
+        </div>    
+
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+
+
+                <div data-ng-repeat="skill in main.skills" style="padding:0px 10px 0px 10px">
+
+                    <span class="progress-text"> {{skill.name}} </span>
+                    <span class="progress-number"><b>{{skill.percent}}</b>/100</span>
+                
+                    <div class="progress">
+
+                      <div class="progress-bar progress-bar-{{skill.theme}}" role="progressbar" aria-valuenow="40"
+                      aria-valuemin="0" aria-valuemax="100" style="width:{{skill.percent}}%">
+                      </div>
+                    </div>
+
+                </div>
+
+            </div>  
+
+
+        </div>
+                
+        <hr/>
+        
+
+     <!-- technology -->
+        <div class="row">
+
+          <center>  <h3><b> Technology and Tools </b></h3> </center>
+
+         </div>  
+
+
+     <div class="row">
+
+        <div class="col-md-12">
+
+                 
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                            <div class="item bg-yellow-gradient">
+                                <img src="../images/icons/angular.png" />
+                                <p>Angular JS</p>
+                            </div>
+                            <div class="item bg-light-blue-gradient">
+                                <img src="../../../../images/icons/mongodb.png" />
+                                <p>Mongo DB</p>
+                            </div>
+                            <div class="item bg-green-gradient">
+                                <img src="../../../../images/icons/express.png" />
+                                <p>Express JS</p>
+                            </div>
+                            <div class="item bg-maroon-gradient">
+                                <img src="../../../../images/icons/node.png" />
+                                <p>Node JS</p>
+                            </div>
+                            <div class="item bg-red-gradient">
+                                <img src="../../../../images/icons/javascript.png" />
+                                <p>Java Script</p>
+                            </div>
+                            
+                            <div class="item bg-light-blue-gradient">
+                                <img src="../../../../images/icons/jquery.png" />
+                                <p>jQuery</p>
+                            </div>
+                            <div class="item bg-blue-gradient">
+                                <img src="../../../../images/icons/html5.png" />
+                                <p>HTML 5</p>
+                            </div>
+                            <div class="item bg-yellow-gradient">
+                                <img src="../../../../images/icons/css3.png" />
+                                <p>CSS 3</p>
+                            </div>
+                            <div class="item bg-light-blue-gradient">
+                                <img src="../../../../images/icons/saas.png" />
+                                <p>SAAS</p>
+                            </div>
+                            <div class="item bg-green-gradient">
+                                <img src="../../../../images/icons/bootstrap.png" />
+                                <p>Bootstrap</p>
+                            </div>
+                            <div class="item bg-maroon-gradient">
+                                <img src="../../../../images/icons/java.png" />
+                                <p>Java</p>
+                            </div>
+                            <div class="item bg-green-gradient">
+                                <img src="../../../../images/icons/sql.png" />
+                                <p>SQL</p>
+                            </div>
+                            <div class="item bg-red-gradient">
+                                <img src="../../../../images/icons/cloud.png" />
+                                <p>Cloud Computing</p>
+                            </div>
+                        </div>
+
+                          <div class="row">&nbsp;</div>  
+
+                        <div class="customNavigation">
+                            <a class="btn prev btn-info btn-sm btn-flat">Previous</a>
+                            <a class="btn next btn-warning btn-sm btn-flat">Next</a>
+                            <a class="btn play btn-success btn-sm btn-flat">Autoplay</a>
+                            <a class="btn stop btn-danger btn-sm btn-flat">Stop</a>
+                        </div>
+
+                        <div class="row">&nbsp;</div>
+                        <div class="row">&nbsp;</div>
+
+
+
+        </div>
+
+        </div>  
+    <!-- /.row -->
+
+    <!-- end of box -->
+    </div>
+
+<br/><br/>
+
+</div>

@@ -1,0 +1,284 @@
+/* Space out content a bit */
+body {
+    padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.nav>li.active>a {
+text-decoration: none;
+background-color: #eee;
+}
+
+#owl-demo img {
+    height: 85px;
+    padding: 10px;
+    
+}
+#owl-demo .item{
+      background: #3fbf79;
+      padding: 4px 0px;
+      margin: 10px;
+      color: #FFF;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px;
+      text-align: center;
+      height:116px;
+    }
+
+.bg-teal-gradient {
+  background: #39cccc !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #39cccc), color-stop(1, #7adddd)) !important;
+  background: -ms-linear-gradient(bottom, #39cccc, #7adddd) !important;
+  background: -moz-linear-gradient(center bottom, #39cccc 0%, #7adddd 100%) !important;
+  background: -o-linear-gradient(#7adddd, #39cccc) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7adddd', endColorstr='#39cccc', GradientType=0) !important;
+  color: #fff;
+}
+.bg-light-blue-gradient {
+  background: #3c8dbc !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3c8dbc), color-stop(1, #67a8ce)) !important;
+  background: -ms-linear-gradient(bottom, #3c8dbc, #67a8ce) !important;
+  background: -moz-linear-gradient(center bottom, #3c8dbc 0%, #67a8ce 100%) !important;
+  background: -o-linear-gradient(#67a8ce, #3c8dbc) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#67a8ce', endColorstr='#3c8dbc', GradientType=0) !important;
+  color: #fff;
+}
+.bg-blue-gradient {
+  background: #0073b7 !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0073b7), color-stop(1, #0089db)) !important;
+  background: -ms-linear-gradient(bottom, #0073b7, #0089db) !important;
+  background: -moz-linear-gradient(center bottom, #0073b7 0%, #0089db 100%) !important;
+  background: -o-linear-gradient(#0089db, #0073b7) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0089db', endColorstr='#0073b7', GradientType=0) !important;
+  color: #fff;
+}
+.bg-aqua-gradient {
+  background: #00c0ef !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #00c0ef), color-stop(1, #14d1ff)) !important;
+  background: -ms-linear-gradient(bottom, #00c0ef, #14d1ff) !important;
+  background: -moz-linear-gradient(center bottom, #00c0ef 0%, #14d1ff 100%) !important;
+  background: -o-linear-gradient(#14d1ff, #00c0ef) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#14d1ff', endColorstr='#00c0ef', GradientType=0) !important;
+  color: #fff;
+}
+.bg-yellow-gradient {
+  background: #f39c12 !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f39c12), color-stop(1, #f7bc60)) !important;
+  background: -ms-linear-gradient(bottom, #f39c12, #f7bc60) !important;
+  background: -moz-linear-gradient(center bottom, #f39c12 0%, #f7bc60 100%) !important;
+  background: -o-linear-gradient(#f7bc60, #f39c12) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7bc60', endColorstr='#f39c12', GradientType=0) !important;
+  color: #fff;
+}
+.bg-purple-gradient {
+  background: #605ca8 !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #605ca8), color-stop(1, #9491c4)) !important;
+  background: -ms-linear-gradient(bottom, #605ca8, #9491c4) !important;
+  background: -moz-linear-gradient(center bottom, #605ca8 0%, #9491c4 100%) !important;
+  background: -o-linear-gradient(#9491c4, #605ca8) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9491c4', endColorstr='#605ca8', GradientType=0) !important;
+  color: #fff;
+}
+.bg-green-gradient {
+  background: #00a65a !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #00a65a), color-stop(1, #00ca6d)) !important;
+  background: -ms-linear-gradient(bottom, #00a65a, #00ca6d) !important;
+  background: -moz-linear-gradient(center bottom, #00a65a 0%, #00ca6d 100%) !important;
+  background: -o-linear-gradient(#00ca6d, #00a65a) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ca6d', endColorstr='#00a65a', GradientType=0) !important;
+  color: #fff;
+}
+.bg-red-gradient {
+  background: #dd4b39 !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #dd4b39), color-stop(1, #e47365)) !important;
+  background: -ms-linear-gradient(bottom, #dd4b39, #e47365) !important;
+  background: -moz-linear-gradient(center bottom, #dd4b39 0%, #e47365 100%) !important;
+  background: -o-linear-gradient(#e47365, #dd4b39) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e47365', endColorstr='#dd4b39', GradientType=0) !important;
+  color: #fff;
+}
+.bg-black-gradient {
+  background: #111111 !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #111111), color-stop(1, #2b2b2b)) !important;
+  background: -ms-linear-gradient(bottom, #111111, #2b2b2b) !important;
+  background: -moz-linear-gradient(center bottom, #111111 0%, #2b2b2b 100%) !important;
+  background: -o-linear-gradient(#2b2b2b, #111111) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b2b2b', endColorstr='#111111', GradientType=0) !important;
+  color: #fff;
+}
+.bg-maroon-gradient {
+  background: #d81b60 !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #d81b60), color-stop(1, #e73f7c)) !important;
+  background: -ms-linear-gradient(bottom, #d81b60, #e73f7c) !important;
+  background: -moz-linear-gradient(center bottom, #d81b60 0%, #e73f7c 100%) !important;
+  background: -o-linear-gradient(#e73f7c, #d81b60) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e73f7c', endColorstr='#d81b60', GradientType=0) !important;
+  color: #fff;
+}
+
+.customNavigation {
+    text-align: center;
+}
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+#page-wrapper{
+
+    min-height: 100%;
+    background-color: #ecf0f5 !important;
+    z-index: 800;
+}
+.progress-number{
+  float:right;
+  padding-right:10px;
+}
+.progress-text{
+  font-weight: 600; 
+  padding-left:10px;
+}
+.progress-bar-light-blue,
+.progress-bar-primary {
+  background-color: #3c8dbc;
+}
+.progress-striped .progress-bar-light-blue,
+.progress-striped .progress-bar-primary {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-green,
+.progress-bar-success {
+  background-color: #00a65a;
+}
+.progress-striped .progress-bar-green,
+.progress-striped .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-aqua,
+.progress-bar-info {
+  background-color: #00c0ef;
+}
+.progress-striped .progress-bar-aqua,
+.progress-striped .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-yellow,
+.progress-bar-warning {
+  background-color: #f39c12;
+}
+.progress-striped .progress-bar-yellow,
+.progress-striped .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-red,
+.progress-bar-danger {
+  background-color: #dd4b39;
+}
+.progress-striped .progress-bar-red,
+.progress-striped .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-purple {
+  background-color: #605CA8;
+}
+.progress-bar-teal {
+  background-color: #39CCCC;
+}
+.progress-bar-maroon {
+  background-color: #D81B60 ;
+}
+.progress-sm{
+height:10px;
+border-radius:1px;
+
+}
