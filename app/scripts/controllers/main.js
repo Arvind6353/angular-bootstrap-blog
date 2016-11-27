@@ -73,5 +73,7 @@ angular.module('sbAdminApp')
         $("#owl-demo").trigger('owl.stop');
     })
 
+    
+
 
   });

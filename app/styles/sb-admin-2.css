@@ -81,9 +81,23 @@ body {
 }
 
 .navbar-top-links .dropdown-user {
-    right: 0;
+    right:0;
     left: auto;
 }
+
+
+
+@media(max-width:767px) {
+
+    .navbar-top-links .dropdown-user {
+    
+    left: 0;
+}
+
+
+}
+
+
 
 .sidebar .sidebar-nav.navbar-collapse {
     padding-right: 0;
