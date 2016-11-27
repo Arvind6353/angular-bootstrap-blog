@@ -154,6 +154,22 @@ angular
         }
     })
 
+      .state('dashboard.education',{
+        templateUrl:'views/pages/education.html',
+        controller:'EducationCtrl',
+        controllerAs:'education',
+        url:'/education',
+        resolve: {
+          loadMyFile:function($ocLazyLoad) {
+            return $ocLazyLoad.load({
+                name:'sbAdminApp',
+                files:['scripts/controllers/educationCtrl.js']
+            })
+          }
+        }
+    })
+
+
 
 
   

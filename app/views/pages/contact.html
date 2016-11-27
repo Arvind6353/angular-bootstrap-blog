@@ -11,7 +11,7 @@
         
         <div class="row">
 
-            <div class="col-md-5">
+            <div class="col-md-6 col-xs-12">
 
                 <div class="col-md-12">
                         <div class="panel panel-primary">
@@ -23,9 +23,14 @@
 
                             <div class="panel-body">
 
-                                <i class="fa fa-envelope fa-fw"></i>  &nbsp; arvindan92@gmail.com </br>
-                                <i class="fa fa-envelope fa-fw"></i>   &nbsp; arvindan921@gmail.com </br>
+                                <div class="col-xs-12">
 
+                                    <i class="fa fa-envelope fa-fw"></i>  &nbsp; arvindan92@gmail.com </br>
+                                </div>  
+
+                                <div class="col-xs-12">
+                                    <i class="fa fa-envelope fa-fw"></i>   &nbsp; arvindan921@gmail.com </br>
+                                 </div>   
                             </div>    
 
                         </div>    
@@ -43,11 +48,13 @@
 
                         <div class="panel-body">
             
-                        <i class="fa fa-github fa-fw"></i> &nbsp  <a target="_blank" href="https://github.com/Arvind6353"> https://github.com/Arvind6353 </a> </br>
+                          <div class="col-xs-12">  
+                            <i class="fa fa-github fa-fw"></i> &nbsp  <a target="_blank" href="https://github.com/Arvind6353"> https://github.com/Arvind6353 </a> </br>
+                           </div> 
 
-
-                        <i class="fa fa-code fa-fw"></i> &nbsp  <a target="_blank" href="https://www.hackerrank.com/arvindan"> HackerRank </a> </br>
-
+                         <div class="col-xs-12">  
+                            <i class="fa fa-code fa-fw"></i> &nbsp  <a target="_blank" href="https://www.hackerrank.com/arvindan"> HackerRank </a> </br>
+                        </div>
 
 
 
@@ -82,7 +89,9 @@
 
             </div>
 
-            <div class="col-md-7">
+            <div class="col-md-6 col-xs-12">
+
+                <div class="col-md-12">
 
                   <div class="panel panel-warning">
                     
@@ -97,50 +106,50 @@
                             <div class="form-horizontal" ng-form="contactForm" name="contactForm" no-validate>
 
                                  <div class="form-group">
-                                    <label for="name" class="col-sm-2 control-label"><i class="fa fa-user fa-x" style="font-size: 25px"></i></label>
-                                    <div class="col-sm-10" style="padding-left: 0px;">
+                                    <label for="name" class="col-xs-2 control-label"><i class="fa fa-user fa-x" style="font-size: 25px"></i></label>
+                                    <div class="col-xs-10" style="padding-left: 0px;">
                                       <input type="text" ng-model="contact.form.name" required class="form-control" id="name" placeholder="Name">
                                     </div>
                                   </div>
 
 
                                 <div class="form-group">
-                                    <label for="phone" class="col-sm-2 control-label"><i style="font-size: 25px" class="fa fa-phone fa-x"></i></label>
-                                    <div class="col-sm-10" style="padding-left: 0px;">
+                                    <label for="phone" class="col-xs-2 control-label"><i style="font-size: 25px" class="fa fa-phone fa-x"></i></label>
+                                    <div class="col-xs-10" style="padding-left: 0px;">
                                       <input type="number" ng-model="contact.form.phone" required class="form-control" id="phone" placeholder="Phone">
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="email" class="col-sm-2 control-label"><i style="font-size: 25px" class="fa fa-envelope fa-x"></i></label>
-                                    <div class="col-sm-10" style="padding-left: 0px;">
+                                    <label for="email" class="col-xs-2 control-label"><i style="font-size: 25px" class="fa fa-envelope fa-x"></i></label>
+                                    <div class="col-xs-10" style="padding-left: 0px;">
                                       <input type="email" ng-model="contact.form.email" required class="form-control" id="email" placeholder="Email">
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="message" class="col-sm-2 control-label"><i style="font-size: 25px" class="fa fa-clipboard fa-x"></i></label>
-                                    <div class="col-sm-10" style="padding-left: 0px;">
+                                    <label for="message" class="col-xs-2 control-label"><i style="font-size: 25px" class="fa fa-clipboard fa-x"></i></label>
+                                    <div class="col-xs-10" style="padding-left: 0px;">
                                       <input type="text" ng-model="contact.form.message" required class="form-control" id="message" placeholder="Message">
                                     </div>
                                 </div>
 
                                 <br/> 
                                 <div class="form-group">
-                                    <div class="col-sm-8"></div>
+                                    <div class="col-xs-4"></div>
 
-                                    <div class="col-sm-4">
+                                    <div class="col-xs-8">
 
-                                      <button class="btn btn-md btn-primary" ng-disabled="contactForm.$invalid" ng-click="contact.send()">Send </button>
-                                      &nbsp;&nbsp;
-                                        <button class="btn btn-md btn-danger"  ng-click="contact.clear()">Clear </button>
+                                       <div class="btn-group"> 
+                                          <button class="btn btn-md btn-primary" ng-disabled="contactForm.$invalid" ng-click="contact.send()">Send </button>
+                                            <button class="btn btn-md btn-danger"  ng-click="contact.clear()">Clear </button>
 
-                                    </div>
+                                        </div>
 
                                 </div>   
 
                              </div>   
-
+                        </div>     
                         <br/>
 
                     </div>    

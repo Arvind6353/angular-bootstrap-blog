@@ -1,0 +1,1 @@
+"use strict";angular.module("sbAdminApp").controller("EducationCtrl",function($scope){$(".knob").knob()});

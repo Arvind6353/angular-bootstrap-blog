@@ -9,10 +9,10 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 50%;
+    left: 94%;
     width: 3px;
     margin-left: -1.5px;
-    background-color: #eeeeee;
+    background-color: red;
 }
 
 .timeline > li {
@@ -41,9 +41,9 @@
 }
 
 .timeline > li > .timeline-panel {
-    float: left;
+    float:left;
     position: relative;
-    width: 46%;
+    width: 90%;
     padding: 20px;
     border: 1px solid #d4d4d4;
     border-radius: 2px;
@@ -78,8 +78,9 @@
 .timeline > li > .timeline-badge {
     z-index: 100;
     position: absolute;
-    top: 16px;
-    left: 50%;
+    top: 15px;
+
+    left: 94%;
     width: 50px;
     height: 50px;
     margin-left: -25px;
@@ -90,6 +91,21 @@
     color: #fff;
     background-color: #999999;
 }
+
+
+.timeline > li > .timeline-label{
+    position: absolute;
+    top: -21px;
+    left: 92%;
+    margin-left: -30px;
+       font-weight: 600;
+      padding: 5px;
+      display: inline-block;
+      background-color: #fff;
+    
+}
+
+
 
 .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
@@ -128,6 +144,83 @@
 .timeline-badge.info {
     background-color: #5bc0de !important;
 }
+
+/* */
+
+.timeline-panel.primary {
+    background-color: #2e6da4 !important;
+}
+
+.timeline-panel.success {
+    background-color: #3f903f !important;
+}
+
+.timeline-panel.warning {
+    background-color: #f0ad4e !important;
+}
+
+.timeline-panel.danger {
+    background-color: #d9534f !important;
+}
+
+.timeline-panel.info {
+    background-color: #5bc0de !important;
+}
+
+
+
+/* */
+
+.timeline-heading.primary {
+    background-color: #2e6da4 !important;
+    border-radius:10%;
+}
+
+.timeline-heading.success {
+    background-color: #3f903f !important;
+    border-radius:10%;
+}
+
+.timeline-heading.warning {
+    background-color: #f0ad4e !important;
+    border-radius:10%;
+}
+
+.timeline-heading.danger {
+    background-color: #d9534f !important;
+    border-radius:10%;
+}
+
+.timeline-heading.info {
+    background-color: #5bc0de !important;
+    border-radius:10%;
+}
+
+
+
+/* */
+
+.timeline-body.primary {
+    background-color: #2e6da4 !important;
+}
+
+.timeline-body.success {
+    background-color: #3f903f !important;
+}
+
+.timeline-body.warning {
+    background-color: #f0ad4e !important;
+}
+
+.timeline-body.danger {
+    background-color: #d9534f !important;
+}
+
+.timeline-body.info {
+    background-color: #5bc0de !important;
+}
+
+
 
 .timeline-title {
     margin-top: 0;

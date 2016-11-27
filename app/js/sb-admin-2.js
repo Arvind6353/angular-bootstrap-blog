@@ -14,8 +14,11 @@ $(function() {
         if (width < 768) {
             $('div.navbar-collapse').addClass('collapse');
             topOffset = 100; // 2-row-menu
+             $('.main-footer').css('margin-left','0px');
+
         } else {
             $('div.navbar-collapse').removeClass('collapse');
+            $('.main-footer').css('margin-left','250px');
         }
 
         height = ((this.window.innerHeight > 0) ? this.window.innerHeight : this.screen.height) - 1;
