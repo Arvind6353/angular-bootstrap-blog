@@ -1,0 +1,1 @@
+"use strict";angular.module("sbAdminApp").controller("ProjectsCtrl",function($scope){});

@@ -171,6 +171,23 @@ angular
 
 
 
+      .state('dashboard.projects',{
+        templateUrl:'views/pages/projects.html',
+        controller:'ProjectsCtrl',
+        controllerAs:'projects',
+        url:'/projects',
+        resolve: {
+          loadMyFile:function($ocLazyLoad) {
+            return $ocLazyLoad.load({
+                name:'sbAdminApp',
+                files:['scripts/controllers/projectsCtrl.js']
+            })
+          }
+        }
+    })
+ 
+
+
 
   
 
