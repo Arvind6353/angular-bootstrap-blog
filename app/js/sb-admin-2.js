@@ -21,6 +21,7 @@ $(document).ready(function(){
 
         } else {
             $('div.navbar-collapse').removeClass('collapse');
+            
             $('.main-footer').css('margin-left','250px');
         }
 

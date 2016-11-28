@@ -189,10 +189,11 @@
 
 .timeline-heading.default {
     background-color:#ecf0f5 !important;
+
 }
 .timeline-heading.primary {
     background-color: #2e6da4 !important;
-    
+    border-left:2px solid #2e6da4;
 }
 
 .timeline-heading.success {
@@ -202,17 +203,19 @@
 
 .timeline-heading.warning {
     background-color: #f0ad4e !important;
+    border-left:4px solid #c87f0a;
     
 }
 
 .timeline-heading.danger {
     background-color: #d9534f !important;
+    border-left:4px solid #c23321;
     
 }
 
 .timeline-heading.info {
     background-color: #5bc0de !important;
-    
+    border-left:4px solid #0097bc;
 }
 
 
