@@ -1,12 +1,16 @@
-<div class="row">
-    <div class="col-lg-12">
-        <h1 class="page-header">Charts</h1>
-    </div>
-    <!-- /.col-lg-12 -->
+<div class="modal-header">
+                <h3 class="modal-title">
+
+                    <span ng-if="isSSC"> S.S.C. Marks!</span>
+                    <span ng-if="isSSC"> H.S.C. Marks!</span>
+                    <span ng-if="isBE"> B.E. Results!</span>
+                
+                </h3>
 </div>
-<div class="row">
-    <div class="col-lg-6 col-sm-12" id="line-chart" ng-controller="ChartCtrl">
-        <div class="panel panel-default">
+<div class="modal-body">
+ <div class="row">
+<!--    <div class="col-lg-6 col-sm-12" id="line-chart">
+         <div class="panel panel-default">
             <div class="panel-heading">Line Chart</div>
             <div class="panel-body">
                 <canvas id="line" class="chart chart-line chart-xl" data="line.data" labels="line.labels" legend="true"
@@ -14,7 +18,7 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-6 col-sm-12" id="bar-chart" ng-controller="ChartCtrl">
+    <div class="col-lg-6 col-sm-12" id="bar-chart">
         <div class="panel panel-default">
             <div class="panel-heading">Bar Chart</div>
             <div class="panel-body">
@@ -25,7 +29,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-lg-6 col-sm-12" id="doughnut-chart" ng-controller="ChartCtrl">
+    <div class="col-lg-6 col-sm-12" id="doughnut-chart" >
         <div class="panel panel-default">
             <div class="panel-heading">Doughnut Chart</div>
             <div class="panel-body">
@@ -33,7 +37,7 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-6 col-sm-12" id="radar-chart" ng-controller="ChartCtrl">
+    <div class="col-lg-6 col-sm-12" id="radar-chart" >
         <div class="panel panel-default">
             <div class="panel-heading">Radar Chart</div>
             <div class="panel-body">
@@ -41,15 +45,41 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-6 col-sm-12" id="pie-chart" ng-controller="ChartCtrl">
-        <div class="panel panel-default">
-            <div class="panel-heading">Pie Chart</div>
+ -->    <div class="col-lg-12 col-sm-12" id="pie-chart" ng-if="isSSC">
+            <div class="panel panel-success">
+                <div class="panel-heading">Mark Distribution <span class="pull-right"><strong> 92.1 % </strong></span></div>
+                <div class="panel-body">
+                    <canvas id="pie" class="chart chart-pie chart-xs" data="pie.data" labels="pie.labels" legend="true">
+                    </canvas>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-12 col-sm-12" id="pie-chart" ng-if="isHSC">
+            <div class="panel panel-info">
+                <div class="panel-heading">Mark Distribution <span class="pull-right"><strong> 91.8 %</strong></span></div>
+                <div class="panel-body">
+                    <canvas id="pie" class="chart chart-pie chart-xs" data="pie.data" labels="pie.labels" legend="true">
+                    </canvas>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-lg-12 col-sm-12" id="line-chart" ng-if="isBE">
+         <div class="panel panel-danger">
+            <div class="panel-heading">GPA Distribution  <span class="pull-right"><strong> 8.29 CGPA </strong></span></div>
             <div class="panel-body">
-                <canvas id="pie" class="chart chart-pie chart-xs" data="pie.data" labels="pie.labels"></canvas>
+                <canvas id="line" class="chart chart-line chart-xl" data="line.data" labels="line.labels" legend="true"
+                click="line.onClick" series="line.series"></canvas>
             </div>
         </div>
     </div>
-    <div class="col-lg-6 col-sm-12" id="polar area-chart" ng-controller="ChartCtrl">
+
+
+ <!--    <div class="col-lg-6 col-sm-12" id="polar area-chart" >
       <div class="panel panel-default">
         <div class="panel-heading">Polar Area Chart</div>
         <div class="panel-body">
@@ -57,13 +87,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-6 col-sm-12" id="base-chart" ng-controller="ChartCtrl">
-        <div class="panel panel-default">
-            <div class="panel-heading">Dynamic Chart</div>
-            <div class="panel-body">
-            <canvas id="base" class="chart chart-base" chart-type="dynamic.type" data="dynamic.data" labels="dynamic.labels" legend="true"></canvas>
-            </div>
-        </div>
-        <button type="button" class="btn btn-primary pull-right" ng-click="dynamic.toggle()">Toggle</button>
-    </div>
+  -->   
+</div>
+
 </div>

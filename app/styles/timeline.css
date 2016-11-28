@@ -329,8 +329,8 @@
 .timeline-heading.default.blue{    
     border:3px solid white ;
 
--webkit-animation: 1s blinkblue step-end infinite;
-  -moz-animation: 1s blinkblue step-end infinite; 
+-webkit-animation: 2s blinkblue step-end infinite;
+  -moz-animation: 2s blinkblue step-end infinite; 
 }
 
 @-webkit-keyframes blinkorange {    
@@ -354,8 +354,8 @@
 .timeline-heading.default.orange{    
     border:3px solid white ;
 
--webkit-animation: 1s blinkorange step-end infinite;
-  -moz-animation: 1s blinkorange step-end infinite; 
+-webkit-animation: 2s blinkorange step-end infinite;
+  -moz-animation: 2s blinkorange step-end infinite; 
 }
 
 
@@ -380,7 +380,7 @@
 .timeline-heading.default.red{    
     border:3px solid white ;
 
--webkit-animation: 1s blinkred step-end infinite;
-  -moz-animation: 1s blinkred step-end infinite; 
+-webkit-animation: 2s blinkred step-end infinite;
+  -moz-animation: 2s blinkred step-end infinite; 
 }
     
