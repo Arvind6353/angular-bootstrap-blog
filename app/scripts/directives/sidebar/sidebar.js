@@ -16,6 +16,16 @@ angular.module('sbAdminApp')
       scope: {
       },
       controller:function($scope){
+
+      $scope.minimizeSidebar=function(){
+    
+      var width = ($(window).innerWidth() > 0) ? $(window).innerWidth() : this.screen.width;
+        if (width < 768) { 
+         $('div.navbar-collapse').removeClass('in');
+         $('div.navbar-collapse').addClass('collapse');
+        }
+      }
+
         $scope.selectedMenu = 'dashboard';
         $scope.collapseVar = 0;
         $scope.multiCollapseVar = 0;

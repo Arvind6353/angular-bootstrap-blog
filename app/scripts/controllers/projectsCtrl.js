@@ -87,7 +87,7 @@ angular.module('sbAdminApp')
 
 			  		{
 			  			theme:"danger",	
-			  			title:"MOBAPP",
+			  			title:"MOBOT",
 			  			desc:"An one stop solution to allow users to select property based on their needs . It provides various graphical and analytical information such as graphs , twitter feeds to help users to select property in a better way. Rules Engine is used to calculate the credit and appraisal score of the user to determine if the user is prequalified for the loan process and if prequalified the loan process is triggered by asking users to fill in details and submit various docs. Published this app in Android and Apple store ." ,
 			  			tech:"Java / J2EE , Bluemix , jQuery , jqueryMobile , Bootstrap , Javascript , HTML , CSS , MySql , MongoDB , IBM Rules Engine , D3.js , Twitter API",
 			  			roles:[
