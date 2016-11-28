@@ -30,37 +30,42 @@
 
 
 
-        <div class="panel-body" ng-show="c1$index" ng-init="$index==0?c1$index=true">
+        <div class="panel-body" ng-show="c1$index">
 
 
               <div class="row">
 
                 <div class="col-md-12 cols-xs-12">
                    
-                   <div class="col-xs-12">
-
+                  
                         <strong> <i class="glyphicon glyphicon-info-sign margin-r-5"></i><span style="color:#337ab7"> Description </span></strong>
 
                         <p> {{project.desc}} </p>
-                    </div>
+                  </div>
            
-                      
-                    <div class="col-xs-12">
+              </div>
+
+
+               <div class="row"> 
+                  <div class="col-md-12 col-xs-12">
                       
                         <strong> <i class="fa fa-code margin-r-5"></i> <span style="color:#337ab7">Technology Used </span></strong>
                         <p> {{project.tech}} </p>
                     </div>
-                      
-                    <div class="col-xs-12">
-                            <strong><i class="fa fa-user-md margin-r-5"></i><span style="color:#337ab7"> Role </span> </strong><br/>
-                            <p class="label label-{{role.theme}}" ng-repeat="role in project.roles">
+                 
+                 </div>
 
+                 <div class="row">     
+                    <div class="col-md-12 col-xs-12" style="padding:5px 20px 5px 10px ">
+                            <strong><i class="fa fa-user-md"></i><span style="color:#337ab7"> Role </span> </strong><br/>
+                            <span ng-repeat="role in project.roles">
+                            <p class="label label-{{role.theme}}" >
                                 {{role.name}}
                              </p>   
+                           </span>
                     </div>
-                </div> 
 
-              </div> 
+
              
              </div>  <!-- end of panel -body -->
 
