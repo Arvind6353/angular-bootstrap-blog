@@ -123,6 +123,11 @@ background-color: #eee;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#67a8ce', endColorstr='#3c8dbc', GradientType=0) !important;
   color: #fff;
 }
+   .bg-info-gradient{
+    
+     background-color: #5bc0de !important;
+     color:#fff;
+}
 .bg-blue-gradient {
   background: #0073b7 !important;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0073b7), color-stop(1, #0089db)) !important;
