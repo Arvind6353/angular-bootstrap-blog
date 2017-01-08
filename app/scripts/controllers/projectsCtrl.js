@@ -138,22 +138,71 @@ angular.module('sbAdminApp')
 
 
 			  		{
-			  			theme:"danger",	
+			  			theme:"warning",	
 			  			title:"Reminder Application",
 			  			desc:"A hybrid mobile application that allows the users to set the reminder for the tasks which can be repeated once or several times . It allows the user to delete and reorder the reminders." ,
 			  			tech:"Angular JS , Ionic Framework , HTML" ,
 			  			roles:[
-			  					{theme:"success", name:"UI Design"},
-			  					{theme:"danger", name:"UI Development "}
+			  					{theme:"success", name:"App Design"},
+			  					{theme:"danger", name:"App Development "}
 			  				  ]
 
 
 
 			  		} ,
+
+
+
+			  		{
+			  			theme:"info",	 
+			  			title:"Contact Management Application",
+			  			desc:"Simple CRUD application for Contact management integrated with Firebase to make the app function in real time " , 
+			  			tech:"Angular JS ,Firebase, Node JS , Bootstrap" ,
+			  			roles:[
+			  					{theme:"success", name:"UI Design"},
+			  					{theme:"info", name:"UI Development "},
+			  					{theme:"danger", name:" Firebase Integration  "}
+			  				  ]
+
+
+
+			  		} ,
+
+			  		{
+			  			theme:"danger",	 
+			  			title:"Temple Management Application",
+			  			desc:"A desktop application built using Electron framework , allows the user to perform CRUD operation on the user details and also can be used to create receipts as a PDF document." , 
+			  			tech:"Angular JS , Electron Framework , HTML, Node JS , Bootstrap" ,
+			  			roles:[
+			  					{theme:"success", name:"UI Design"},
+			  					{theme:"info", name:"UI Development "},
+			  					{theme:"danger", name:" Rest API Development  "},
+			  					{theme:"warning", name:"Backend Developement "}
+			  				  ]
+
+			  		} ,
+
+			  		{
+			  			theme:"success",	 
+			  			title:"Event Scheduler Application",
+			  			desc:"A hybrid mobile application built using Ionic framework. Users can create , view or delete events in the calendar . Comes with Month view , Week view and Day view . Integrated with Firebase and all updates are made real time." , 
+			  			tech:"Angular JS , Ionic Framework , Firebase, Node JS , Bootstrap" ,
+			  			roles:[
+			  					{theme:"success", name:"App Design"},
+			  					{theme:"info", name:"App Development "},
+			  					{theme:"danger", name:" Firebase Integration  "}
+			  				  ]
+
+
+
+			  		} 
+		
+
+
 		
 			
 
 
   	]
     
-});
+});	

@@ -15,12 +15,14 @@ angular.module('sbAdminApp')
 
     //development stack
     vm.skills.development = [
+        
         {
-            Software: "Mongo DB",
-            Percentage: "70",
-            theme: "yellow",
-            image: "mongodb"
+            Software: "Node JS",
+            Percentage: "80",
+            theme: "purple",
+            image: "node"
         },
+
         {
             Software: "Express JS",
             Percentage: "85",
@@ -33,11 +35,12 @@ angular.module('sbAdminApp')
             theme: "green",
             image: "angular"
         },
+        
         {
-            Software: "Node JS",
-            Percentage: "80",
-            theme: "purple",
-            image: "node"
+            Software: "Mongo DB",
+            Percentage: "65",
+            theme: "yellow",
+            image: "mongodb"
         },
         {
             Software: "Javascript",
@@ -69,6 +72,23 @@ angular.module('sbAdminApp')
 
 
         {
+            Software: "Firebase",
+            Percentage: "80",
+            theme: "aqua",
+            image: "firebase"
+        },
+
+        {
+            Software: "Electron",
+            Percentage: "80",
+            theme: "green",
+            image: "electron"
+        },
+
+        
+
+
+        {
             Software: "Can JS",
             Percentage: "83",
             theme: "purple",
@@ -93,7 +113,7 @@ angular.module('sbAdminApp')
     vm.skills.design = [
         {
             Software: "HTML 5",
-            Percentage: "85",
+            Percentage: "80",
             theme: "yellow",
             image: "html5"
         },
@@ -111,7 +131,7 @@ angular.module('sbAdminApp')
         },
         {
             Software: "Bootstrap",
-            Percentage: "88",
+            Percentage: "90",
             theme: "purple",
             image: "bootstrap"
         },
@@ -119,7 +139,7 @@ angular.module('sbAdminApp')
         {
             Software: "Mustache",
             Percentage: "90",
-            theme: "yellow",
+            theme: "maroon",
             image: "mustache"
         },
 
@@ -148,15 +168,10 @@ angular.module('sbAdminApp')
             theme: "blue",
             image: "sql"
         },
-        {
-            Software: "Hardware",
-            Percentage: "75",
-            theme: "green",
-            image: "hardware"
-        },
+        
         {
             Software: "Cloud Computing",
-            Percentage: "73",
+            Percentage: "70",
             theme: "yellow",
             image: "cloud"
         },
