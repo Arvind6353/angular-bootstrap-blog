@@ -155,6 +155,22 @@ angular.module('sbAdminApp')
 
 			  		{
 			  			theme:"info",	 
+			  			title:"Chat Application",
+			  			desc:"A Hybrid Chat application using Ionic and Socket IO and Ionic Push. Contains various chat rooms and comes with push notification enabled" , 
+			  			tech:"Angular JS ,Socket IO, Node JS , Ionic Framework" ,
+			  			roles:[
+			  					{theme:"success", name:"App Design"},
+			  					{theme:"info", name:"App Development "},
+			  					{theme:"danger", name:" Socket IO Integration  "}
+			  				  ]
+
+
+
+			  		} ,
+
+
+			  		{
+			  			theme:"danger",	 
 			  			title:"Contact Management Application",
 			  			desc:"Simple CRUD application for Contact management integrated with Firebase to make the app function in real time " , 
 			  			tech:"Angular JS ,Firebase, Node JS , Bootstrap" ,
@@ -169,7 +185,7 @@ angular.module('sbAdminApp')
 			  		} ,
 
 			  		{
-			  			theme:"danger",	 
+			  			theme:"success",	 
 			  			title:"Temple Management Application",
 			  			desc:"A desktop application built using Electron framework , allows the user to perform CRUD operation on the user details and also can be used to create receipts as a PDF document." , 
 			  			tech:"Angular JS , Electron Framework , HTML, Node JS , Bootstrap" ,
@@ -183,19 +199,36 @@ angular.module('sbAdminApp')
 			  		} ,
 
 			  		{
-			  			theme:"success",	 
+			  			theme:"warning",	 
 			  			title:"Event Scheduler Application",
 			  			desc:"A hybrid mobile application built using Ionic framework. Users can create , view or delete events in the calendar . Comes with Month view , Week view and Day view . Integrated with Firebase and all updates are made real time." , 
 			  			tech:"Angular JS , Ionic Framework , Firebase, Node JS , Bootstrap" ,
 			  			roles:[
 			  					{theme:"success", name:"App Design"},
 			  					{theme:"info", name:"App Development "},
-			  					{theme:"danger", name:" Firebase Integration  "}
+			  					{theme:"danger", name:" Firebase Integration "}
+			  				  ]
+
+
+
+			  		} ,
+
+
+			  		{
+			  			theme:"info",	 
+			  			title:"Wish List Application",
+			  			desc:"A hybrid mobile application using Ionic to add / delete items . It comes with offline capablities. Changes that are made offline are synced with the server when the app goes online " , 
+			  			tech:"Angular JS , Ionic Framework , Pouch Db , Couch Db, Node JS " ,
+			  			roles:[
+			  					{theme:"success", name:"App Design"},
+			  					{theme:"info", name:"App Development "},
+			  					{theme:"danger", name:" Database Integration "}
 			  				  ]
 
 
 
 			  		} 
+		
 		
 
 

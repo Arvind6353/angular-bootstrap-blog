@@ -57,7 +57,7 @@ angular.module('sbAdminApp')
         
         {
             Software: "Jquery Mobile",
-            Percentage: "83",
+            Percentage: "85",
             theme: "aqua",
             image: "jqueryMobile"
         },
@@ -65,7 +65,7 @@ angular.module('sbAdminApp')
 
         {
             Software: "Ionic",
-            Percentage: "83",
+            Percentage: "80",
             theme: "green",
             image: "ionic"
         },
@@ -87,7 +87,6 @@ angular.module('sbAdminApp')
 
         
 
-
         {
             Software: "Can JS",
             Percentage: "83",
@@ -97,14 +96,17 @@ angular.module('sbAdminApp')
 
         {
             Software: "Underscore Js",
-            Percentage: "83",
+            Percentage: "85",
             theme: "maroon",
             image: "underscore"
         },
  
-
-
-
+        {
+            Software: "Pouch Db",
+            Percentage: "80",
+            theme: "yellow",
+            image: "pouchdb"
+        }
         
 
     ];
