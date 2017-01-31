@@ -227,7 +227,24 @@ angular.module('sbAdminApp')
 
 
 
+			  		} ,
+
+
+			  		{
+			  			theme:"danger",	 
+			  			title:"Messenger Chat Bot",
+			  			desc:"A Messenger chat bot to get the list of places ( park,cafe,gym ... ) near by and get the latest cricket scores ." , 
+			  			tech:"Node Js, Messenger Api , Rest Services" ,
+			  			roles:[
+			  					{theme:"success", name:"App Design"},
+			  					{theme:"info", name:"App Development "},
+			  					{theme:"danger", name:" Api Integration "}
+			  				  ]
+
+
+
 			  		} 
+
 		
 		
 

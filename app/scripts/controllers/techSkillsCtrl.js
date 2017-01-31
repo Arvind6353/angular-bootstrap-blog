@@ -106,6 +106,13 @@ angular.module('sbAdminApp')
             Percentage: "80",
             theme: "yellow",
             image: "pouchdb"
+        },
+
+        {
+            Software: "Chat Bot",
+            Percentage: "70",
+            theme: "blue",
+            image: "chatbot"
         }
         
 
