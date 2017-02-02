@@ -243,7 +243,22 @@ angular.module('sbAdminApp')
 
 
 
+			  		} ,
+
+
+			  		{
+			  			theme:"primary",	 
+			  			title:"Offline Image Uploader",
+			  			desc:"A hybrid mobile application using Ionic framework which can be used to take pictures from mobile's camera and upload it to server . The application can run in offline mode as well" , 
+			  			tech:"Node Js, Pouch Db, Ionic Framework, Couch Db" ,
+			  			roles:[
+			  					{theme:"success", name:"App Design"},
+			  					{theme:"info", name:"App Development "},
+			  					{theme:"danger", name:" Database Integration "}
+			  				  ]
+
 			  		} 
+
 
 		
 		
