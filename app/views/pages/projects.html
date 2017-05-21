@@ -10,6 +10,14 @@
         <br/>
     <div class="box-body">
 
+            <div class="alert alert-warning" >
+          <h3> The projects below are listed in the order in which it was done </h3>
+           <span class="label label-success" style='font-size:14px'> Web Application (W) </span>
+           <span class="label label-primary" style='font-size:14px'> Hybrid Mobile Application (M) </span>
+           <span class="label label-danger" style='font-size:14px'> Desktop Application (D) </span>
+          
+        </div>
+  
   <div class="row" ng-repeat="project in projects.projects" >    
 
     <div class="col-md-12">
@@ -18,8 +26,7 @@
 
             <div class="panel-heading">
 
-              <b>{{project.title}}</b>
-            
+              <span><b>{{project.title}} ({{project.type}})</b> </spam>
                <i style="float:right;margin-top:-6px"class="fa fa-plus-circle fa-2x margin-r-5" ng-click="c1$index=!c1$index" ng-show="!c1$index"></i>
                <i  style="float:right;margin-top:-6px" class="fa fa-minus-circle fa-2x margin-r-5" ng-click="c1$index=!c1$index" ng-show="c1$index"></i>  
 

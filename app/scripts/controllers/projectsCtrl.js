@@ -23,7 +23,8 @@ angular.module('sbAdminApp')
 			  					{theme:"danger", name:" Rest API Development  "},
 			  					{theme:"warning", name:"Backend Integration "}
 
-			  				  ]
+			  				  ],
+			  			type :'W'	  
 
 
 
@@ -32,7 +33,7 @@ angular.module('sbAdminApp')
 
 					
 			  		{
-			  			theme:"warning",	
+			  			theme:"success",	
 			  			title:"Contractor Management",
 			  			desc:"An application to handle contractor information using CRUD operations with reporting",
 			  			tech:"Java / J2EE , Spring , Hibernate , Can JS , jQuery , Javascript , HTML , CSS, MySql ",
@@ -42,7 +43,8 @@ angular.module('sbAdminApp')
 			  					{theme:"danger", name:" Rest API Development  "},
 			  					{theme:"warning", name:"Backend Integration "}
 
-			  				  ]
+			  				  ],
+			  			type :'W'
 
 
 
@@ -50,7 +52,7 @@ angular.module('sbAdminApp')
 
 
 			  		{
-			  			theme:"info",	
+			  			theme:"warning",	
 			  			title:"Admin Operations",
 			  			desc:"An application to allow Admin perform CRUD operations on users , add / remove roles and view DB table content on the grid ",
 			  			tech:"Java / J2EE , Spring , Hibernate , Can JS , jQuery , Javascript , HTML , CSS, MySql ",
@@ -60,7 +62,8 @@ angular.module('sbAdminApp')
 			  					{theme:"danger", name:" Rest API Development  "},
 			  					{theme:"warning", name:"Backend Integration "}
 
-			  				  ]
+			  				  ],
+			  			type :'W'
 
 
 
@@ -68,7 +71,7 @@ angular.module('sbAdminApp')
 
 
 			  		{
-			  			theme:"success",	
+			  			theme:"info",	
 			  			title:"Issue Logger",
 			  			desc:"An application to track / monitor , issues / defects found in various applications. Users can update the status of the defects as appropriate",
 			  			tech:"Java / J2EE , Spring , Hibernate , Can JS , jQuery , Javascript , HTML , CSS, MySql ",
@@ -78,7 +81,8 @@ angular.module('sbAdminApp')
 			  					{theme:"danger", name:" Rest API Development  "},
 			  					{theme:"warning", name:"Backend Integration "}
 
-			  				  ]
+			  				  ],
+			  			type :'W'
 
 
 
@@ -97,9 +101,8 @@ angular.module('sbAdminApp')
 			  					{theme:"warning", name:"Backend Integration "},
 			  					{theme:"success", name:"Application Deployment "}
 
-			  				  ]
-
-
+			  				  ],
+			  			type :'M'
 
 			  		} ,
 
@@ -116,6 +119,8 @@ angular.module('sbAdminApp')
 			  					{theme:"success", name:"App Publishing "}
 
 			  				  ]
+			  				  ,
+			  			type :'W'
 
 
 
@@ -131,6 +136,8 @@ angular.module('sbAdminApp')
 			  					{theme:"info", name:"UI Development "},
 			  					{theme:"danger", name:" Rest API Development  "}
 			  				  ]
+			  				  ,
+			  			type :'W'
 
 
 
@@ -145,7 +152,8 @@ angular.module('sbAdminApp')
 			  			roles:[
 			  					{theme:"success", name:"App Design"},
 			  					{theme:"danger", name:"App Development "}
-			  				  ]
+			  				  ],
+			  			type :'M'
 
 
 
@@ -162,7 +170,8 @@ angular.module('sbAdminApp')
 			  					{theme:"success", name:"App Design"},
 			  					{theme:"info", name:"App Development "},
 			  					{theme:"danger", name:" Socket IO Integration  "}
-			  				  ]
+			  				  ],
+			  			type :'M'
 
 
 
@@ -178,7 +187,8 @@ angular.module('sbAdminApp')
 			  					{theme:"success", name:"UI Design"},
 			  					{theme:"info", name:"UI Development "},
 			  					{theme:"danger", name:" Firebase Integration  "}
-			  				  ]
+			  				  ],
+			  			type :'M'
 
 
 
@@ -194,7 +204,8 @@ angular.module('sbAdminApp')
 			  					{theme:"info", name:"UI Development "},
 			  					{theme:"danger", name:" Rest API Development  "},
 			  					{theme:"warning", name:"Backend Developement "}
-			  				  ]
+			  				  ],
+			  			type :'D'
 
 			  		} ,
 
@@ -207,7 +218,8 @@ angular.module('sbAdminApp')
 			  					{theme:"success", name:"App Design"},
 			  					{theme:"info", name:"App Development "},
 			  					{theme:"danger", name:" Firebase Integration "}
-			  				  ]
+			  				  ],
+			  			type :'M'
 
 
 
@@ -223,7 +235,8 @@ angular.module('sbAdminApp')
 			  					{theme:"success", name:"App Design"},
 			  					{theme:"info", name:"App Development "},
 			  					{theme:"danger", name:" Database Integration "}
-			  				  ]
+			  				  ],
+			  			type :'M'
 
 
 
@@ -239,15 +252,14 @@ angular.module('sbAdminApp')
 			  					{theme:"success", name:"App Design"},
 			  					{theme:"info", name:"App Development "},
 			  					{theme:"danger", name:" Api Integration "}
-			  				  ]
-
-
+			  				  ],
+			  			type :'M'
 
 			  		} ,
 
 
 			  		{
-			  			theme:"primary",	 
+			  			theme:"warning",	 
 			  			title:"Offline Image Uploader",
 			  			desc:"A hybrid mobile application using Ionic framework which can be used to take pictures from mobile's camera and upload it to server . The application can run in offline mode as well" , 
 			  			tech:"Node Js, Pouch Db, Ionic Framework, Couch Db" ,
@@ -255,7 +267,23 @@ angular.module('sbAdminApp')
 			  					{theme:"success", name:"App Design"},
 			  					{theme:"info", name:"App Development "},
 			  					{theme:"danger", name:" Database Integration "}
-			  				  ]
+			  				  ],
+			  			type :'M'
+
+			  		} ,
+
+			  		{
+			  			theme:"primary",	 
+			  			title:"Bank line Digital",
+			  			desc:"The objective of this engagement is to provide a digital solution for the bank line applications by leveraging latest technologies and provide better customer experience." , 
+			  			tech:"Node Js, React JS , Redux Store, ES6, Javascript , Bootstrap, SASS" ,
+			  			roles:[
+			  					{theme:"success", name:"UI Design"},
+			  					{theme:"info", name:"UI Development "},
+			  					{theme:"danger", name:" Rest API Integration  "},
+			  					{theme:"warning", name:"Unit Testing "},
+			  				  ],
+			  			type :'W'
 
 			  		} 
 
