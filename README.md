@@ -1,6 +1,3 @@
-## Blog using Angular boostrap 
-This project is a port of the famous Free Admin Bootstrap Theme [SB Admin v2.0](http://startbootstrap.com/template-overviews/sb-admin-2/) to Angular Theme.
-
 ## Installation
 ####1. Clone this project or Download that ZIP file
 
