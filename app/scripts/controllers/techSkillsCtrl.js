@@ -113,6 +113,18 @@ angular.module('sbAdminApp')
             Percentage: "70",
             theme: "blue",
             image: "chatbot"
+        },
+         {
+            Software: "React Js",
+            Percentage: "75",
+            theme: "green",
+            image: "reactjs"
+        },
+         {
+            Software: "Redux",
+            Percentage: "70",
+            theme: "aqua",
+            image: "redux"
         }
         
 
